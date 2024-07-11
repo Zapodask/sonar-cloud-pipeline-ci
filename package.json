@@ -1,0 +1,16 @@
+{
+  "name": "sonar-cloud-pipeline-ci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "sonar-scanner": "^3.1.0"
+  }
+}
