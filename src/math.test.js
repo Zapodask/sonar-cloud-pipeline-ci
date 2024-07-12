@@ -1,4 +1,4 @@
-const { add, subtract, multiply, divide } = require("./math");
+const { add, subtract, multiply, divide, exponentiation } = require("./math");
 
 test("add", () => {
   expect(add(1, 2)).toBe(3);
@@ -15,3 +15,7 @@ test("multiply", () => {
 test("divide", () => {
   expect(divide(6, 3)).toBe(2);
 });
+
+test("exponentiation", () => {
+  expect(exponentiation(2, 3)).toBe(8);
+})

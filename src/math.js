@@ -6,4 +6,6 @@ const multiply = (a, b) => a * b;
 
 const divide = (a, b) => a / b;
 
-module.exports = { add, subtract, multiply, divide };
+const exponentiation = (a, b) => a ** b;
+
+module.exports = { add, subtract, multiply, divide, exponentiation };
